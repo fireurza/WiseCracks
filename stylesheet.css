@@ -1,0 +1,73 @@
+#page-wrapper{
+    background-color: black;
+}
+
+body{
+   background-color: white;
+}
+P{
+    font-size: 48pt;
+    color:#fff;
+    text-shadow: 0 0 0.1em #fff, 0 0 0.1em #fff,0 0 0.1em #fff,
+      0 0 0.4em #f00;  
+}
+div{
+    border:#fff solid 5px;
+}
+
+h1 {
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+.header{
+    background-image: url("themic.jpg");
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    
+}
+  
+body{
+        
+        background:#888;
+    
+        
+        
+        
+.container {
+         position: absolute:
+         Left:0;
+         top:0;
+         width: 100%;
+         height: 100%;
+         
+}
+
+nav {background-color: maroon;
+     height: 50px;
+}
+nav ul{
+    
+}
+nav ul li{
+    list-style-type: bold Arial hebrew
+    width: 150px;
+    float:left;
+    border-right: 
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
