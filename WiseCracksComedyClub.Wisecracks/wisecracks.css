@@ -1,0 +1,49 @@
+body { 
+   background-image: url("ComedyClub.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color: deepskyblue;
+    font-family: 'Lobster', cursive;  
+}
+
+.calendar
+    {
+        background: white;
+        width: 75%;
+        font-family: 'Nobile', sans-serif;
+        float: left;
+}
+
+p {
+    font-family: 'open sans', cursive;
+    clear: left;
+}
+
+li a {
+    padding: 20px 10% 20px 10px;
+    font-size: large;
+}
+
+.navbar {
+    word-spacing: 5%;
+    background: skyblue;
+    width: 100%;
+    font-family: 'lobster', cursive;
+    font-size-adjust: auto;
+    margin-top: 0;
+    padding: 0.5%;
+    
+}
+
+.sidebox {
+    background: white;
+    float: right;
+    width: 24%;
+    height: 50%;
+}
+li {
+    display: inline;
+}
