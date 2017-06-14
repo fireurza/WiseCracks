@@ -1,12 +1,17 @@
 body { 
-   background-image: url("ComedyClub.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url("../Images/wall.png");
+    margin: 0;
 }
 
 h1 {
     color: deepskyblue;
     font-family: 'Lobster', cursive;  
+    margin: 0;
+    margin-top: 210px;
+}
+
+header {
+    top: 0;
 }
 
 .calendar
@@ -26,7 +31,7 @@ p {
 
 .neon a {
     padding: 20px 10% 20px 10px;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #228DFF;
     text-decoration: none;
     -webkit-transition: all 0.5s;
@@ -60,15 +65,25 @@ p {
 }
 
 /* added to here */
+@font-face {
+    font-family: 'showcard gothic';
+    src: url(SHOWG.TTF);
+}
 
 .navbar {
     word-spacing: 5%;
-    background: black;
+    background: rgba(0, 0, 0, 0.7);
     width: 100%;
-    font-family: 'lobster', cursive;
+    font-family: showcard gothic;
     font-size-adjust: auto;
     margin-top: 0;
-    padding: 0.5%; 
+    margin-left: 0;
+    float: left;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.5%;
+    position: fixed;
+    top: 0;
     
 }
 
@@ -80,5 +95,8 @@ p {
 }
 li {
     display: inline;
-    color: #76889b;
 }
+
+div {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: deepskyblue;
