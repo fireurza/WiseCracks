@@ -1,0 +1,237 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wise Cracks Comedy Club</title>
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    
+</head>
+ 
+    
+<div id="pagewrapper">   
+<body>
+    
+<h1>WISE CRACKS</h1>
+    
+<img src="images/Wall.png" alt="Wall.png" style="width:608px;height:456px;">
+
+<header> Wise Kracks </header>
+
+                <nav>
+                    <div class= "navbar" width= "75%" height="inherit">
+
+                    <ul>
+                            <li class="neon"><a href="index.html">Home</a></li>
+
+                            <li class="neon"><a href="lineup.html">Lineup</a></li>
+
+                            <li class="neon"><a href="Calendar%20page.html">Calendar and Showtimes</a></li>
+
+                            <li class="neon"><a href="tickets.html">Tickets</a></li>
+
+                            <li class="neon"><a href="contactus-wisecracks.html">Contact us</a></li>
+
+                    </ul>
+
+                    </div>
+
+                </nav>
+
+<div id="Performers">
+<img id="PerformerPic" src="default.gif" width="100" height="100">
+
+            <select id="Show">
+
+                <option value="blank"> </option>
+
+                <option value="placeholder1">Placeholder 1</option>
+
+                <option value="placeholder2">Placeholder 2</option>
+
+                <option value="placeholder3">Placeholder 3</option>
+
+                <option value="placeholder4">Placeholder 4</option>
+
+            </select>
+
+            <select id="Times">
+
+                <option value="blank"> </option>
+
+                <option value="timeholder1">Time Placeholder 1</option>
+
+                <option value="timeholder2">Time Placeholder 2</option>
+
+                <option value="timeholder3">Time Placeholder 3</option>
+
+                <option value="timeholder4">Time Placeholder 4</option>
+
+            </select>
+
+            <h4 id="TicketsChildren">Children</h4>
+
+            
+
+            <select id="Children">
+
+                <option value="blank"> </option>
+
+                <option value="1">1</option>
+
+                <option value="2">2</option>
+
+                <option value="3">3</option>
+
+                <option value="4">4</option>
+
+            </select>
+
+            
+
+            <h4 id="TicketsAdults">Adults</h4>
+
+            
+
+            <select id="Adults">
+
+                <option value="blank"> </option>
+
+                <option value="1">1</option>
+
+                <option value="2">2</option>
+
+                <option value="3">3</option>
+
+                <option value="4">4</option>
+
+            </select>
+
+            
+
+            <h4 id="TicketsSeniors">Seniors</h4>
+
+            
+
+            <select id="Seniors">
+
+                <option value="blank"> </option>
+
+                <option value="1">1</option>
+
+                <option value="2">2</option>
+
+                <option value="3">3</option>
+
+                <option value="4">4</option>
+
+            </select>
+        
+<img src="NewEvents.jpg">
+   <p></p>     
+        </div>    
+
+
+
+ 
+
+<div>
+<img src="Advertisement for Wise Cracks credit card"/imag>
+    </div>
+<div>
+
+            <p>Comedy News"</p>                                                             
+
+                                                                
+       </div>                                                        
+     <div>
+
+        <p>   </div>
+                   <div class="box2"></div>id="content">
+          <p> Rent Wise Cracks for Special events for 20 to 300 people.
+              
+                        
+
+              Holiday Parties     Anniversaries
+
+              Corporate Events    Luch meetings
+
+              Siminars            Birthday Parties
+
+    
+
+         
+
+         </p>
+
+        </div>                                                               
+
+                                                                
+
+
+   <img src="images/newEvents.jpg" alt="NewEvents.jpg" style="width:912px;height:684px;">
+  
+
+             
+
+
+
+<div id="info">
+
+                  
+
+    <h3> CONNECT WITH US </h3>
+
+    
+
+    <h3> Like on face book, hit us up on twitter, look us up on Snap Chat, or touch base with us on Google. </h3>    
+
+</div>
+
+
+
+<div id="wrapper"> "Please scroll to view our monthly shows"
+
+         
+
+</div>
+
+<div> <div class="content">
+    
+          <p> </div>
+<div class="box2"></div>
+<div class="content">
+          <p> Rent Wise Cracks for Special events for 20 to 300 people.
+              
+                        
+
+              Holiday Parties     Anniversaries
+
+              Corporate Events    Luch meetings
+
+              Siminars            Birthday Parties
+
+    
+
+    </p>
+
+     </div>           
+
+    
+
+  <div> 
+        Omid Djalili comedy</iframe>  
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jkxm5UTe-Xg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+   
+    </video> 
+
+  <img src="Events.jpg"></div>
+
+    <footer>This Website is copyrighted by the Wis eKracks association of National standards 2017</footer>
+
+
+</body>
+</div> 
+</html>
+
+
+   
