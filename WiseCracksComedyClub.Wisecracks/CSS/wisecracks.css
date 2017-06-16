@@ -15,7 +15,8 @@ header {
 }
 
 .toptitle {
-        margin-left: 20em;
+    text-align: center;
+    margin-right: 5%;
 }
 .calendar
     {
@@ -27,11 +28,12 @@ header {
 }
 
 #container {
-  width: 100%;
-  margin: auto;
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
 }
 
-p {
+.Logo {
   text-align: center;
   font-size: 7em;
   margin: 20px 0 20px 0;
@@ -62,20 +64,27 @@ a {
     animation: neon2 1.5s ease-in-out infinite alternate;
     color: #ffffff;
 }
-.neon1 a {
-  color: #fff;
-  font-family: showcard gothic;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
+
+.neon1 {
+    background-color: transparent;
 }
 
+.neon1 a {
+    color: #fff;
+    font-family: showcard gothic;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+/*
 .neon1 a:hover {
   color: #FF1177;
   -webkit-animation: none;
   -moz-animation: none;
   animation: none;
 }
+*/
 
 @-webkit-keyframes neon2 {
   from {
@@ -126,3 +135,169 @@ li {
 div {
     background-color: rgba(0, 0, 0, 0.7);
     color: deepskyblue;
+}
+
+/* Contact Us */
+
+.googlemap {
+    float:right; 
+    padding-right: 5%;
+    background-color: transparent;
+    height: 300px;
+}
+
+.faq {
+    padding-left: 5%;
+    background-color: transparent;
+}
+iframe{
+    border-radius: 12px;
+}
+
+
+.tab {
+  position: center;
+  margin-bottom: 1px;
+  width: 50%;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 12px;
+}
+input {
+  position: absolute;
+  opacity: 1;
+}
+label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  font-weight: bold;
+  line-height: 3;
+  cursor: pointer;
+}
+.blue label {
+  background: #668cff
+}
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  background:#ffffff;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+}
+.blue .tab-content {
+  background: #000066;
+}
+.tab-content p {
+  margin: 1em;
+}
+/* :checked */
+input:checked ~ .tab-content {
+  max-height: 10em;
+}
+/* Icon */
+label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+input[type=checkbox] + label::after {
+  content: "+";
+}
+input[type=radio] + label::after {
+  content: "\25BC";
+}
+input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}
+
+.cleardiv {
+    padding-bottom: 10%;
+}
+
+/*Lineup CSS */
+
+.itemactive {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: auto;
+}
+
+.carpic {
+    display: block;
+    margin: auto;
+}
+
+.flash {
+   animation-name: flash;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: red;}
+    to {color: black;}
+}
+.myButtonLink {
+	
+    margin: auto;
+	width: 1%;
+	height: 1%;
+	background: url('/path/to/myImage.png') bottom;
+	text-indent: -99999px;
+}
+.myButtonLink:hover {
+	background-position: 0 0;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
