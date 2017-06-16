@@ -1,0 +1,31 @@
+/*Eric added this*/    
+}
+.flash {
+   animation-name: flash;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: red;}
+    to {color: black;}
+}
+.myButtonLink {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url('/path/to/myImage.png') bottom;
+	text-indent: -99999px;
+}
+.myButtonLink:hover {
+	background-position: 0 0;
+}
+
+.item {
+ height: 300px;
+ width: 400px;
+ overflow: hidden;
+}
