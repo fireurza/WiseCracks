@@ -63,21 +63,12 @@ body {
 /* input fields on form */
 
 
-
-
-ul{
-    list-style-type: none;
-}
-
 .googlemap{
-    float:right;
-   
+    float:right;   
 }
 
 iframe{
    border-radius: 12px;
-
-
 }
 
 
@@ -91,7 +82,7 @@ iframe{
 }
 input {
   position: absolute;
-  opacity: 0;
+  opacity: 1;
   z-index: -1;
 }
 label {
